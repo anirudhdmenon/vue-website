@@ -3,6 +3,8 @@
 2. https://vue-website-anirudhdmenon.vercel.app/
 3. https://vue-website-git-master-anirudhdmenon.vercel.app/
 
+CREDITS: VUETIFY
+
 ## Project setup
 ```
 npm install
