@@ -1,4 +1,7 @@
 # vue-website
+1. https://vue-website-anirudhdmenon.vercel.app/
+2. https://vue-website-anirudhdmenon.vercel.app/
+3. https://vue-website-git-master-anirudhdmenon.vercel.app/
 
 ## Project setup
 ```
