@@ -271,7 +271,7 @@
   export default {
     data() {
       return {
-        videoUrl: 'https://www.youtube.com/embed/a3ICNMQW7Ok'
+        videoUrl: 'https://www.youtube.com/embed/tgbNymZ7vqY'
       }
     }
   }
