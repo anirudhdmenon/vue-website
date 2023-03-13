@@ -202,7 +202,7 @@
             <v-card-title>My Video</v-card-title>
             <v-card-text>
               <div class="video-container">
-                <iframe v-cookie-yes src="videoUrl"></iframe>
+                <iframe width="80%" height="600" :src="videoUrl" frameborder="0" allowfullscreen></iframe>
               </div>
             </v-card-text>
           </v-card>
@@ -275,28 +275,6 @@
       }
     }
   }
-</script>
-<script>
-  export default {
-    directives: {
-      'cookie-yes': {
-        bind: function(el) {
-          // Check if the cookie exists and hide the video if it doesn't
-          if (this.$cookies.get('CookieYes') !== 'true') {
-            el.style.display = 'none';
-          }
-        },
-        update: function(el) {
-          // Update the element when the cookie changes
-          if (this.$cookies.get('CookieYes') === 'true') {
-            el.style.display = 'block';
-          } else {
-            el.style.display = 'none';
-          }
-        },
-      },
-    },
-  };
 </script>
 <style scoped>
 .top{
