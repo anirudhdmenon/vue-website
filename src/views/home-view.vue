@@ -202,7 +202,7 @@
             <v-card-title>My Video</v-card-title>
             <v-card-text>
               <div class="video-container">
-                <iframe width="80%" height="600" :src="videoUrl" frameborder="0" allowfullscreen></iframe>
+                <iframe v-if="$cookies.get('CookieYes') === 'true'" src="videoUrl"></iframe>
               </div>
             </v-card-text>
           </v-card>
