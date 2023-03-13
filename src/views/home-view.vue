@@ -196,6 +196,18 @@
             <v-icon right>mdi-arrow-right</v-icon>
           </v-btn>
         </v-col>
+
+        <v-col cols="12">
+          <v-card class="mx-auto" max-width="800" color="#A7121D">
+            <v-card-title>My Video</v-card-title>
+            <v-card-text>
+              <div class="video-container">
+                <iframe width="80%" height="600" :src="videoUrl" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </v-card-text>
+          </v-card>
+        </v-col>
+        
         <v-col cols="12" class="padd topInverse">
           <div class="second">
             <div class="secondchild1" id="contact">
@@ -254,6 +266,15 @@
       FooterElem,
     },
   };
+</script>
+<script>
+  export default {
+    data() {
+      return {
+        videoUrl: 'https://www.youtube.com/embed/a3ICNMQW7Ok'
+      }
+    }
+  }
 </script>
 <style scoped>
 .top{
@@ -338,5 +359,19 @@
 h1.number {
   font-size: 50px;
   font-weight: bold;
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 </style>
