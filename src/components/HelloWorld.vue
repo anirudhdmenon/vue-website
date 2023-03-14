@@ -91,6 +91,10 @@
   </v-container>
 </template>
 
+<!-- Start cookieyes banner --> 
+<script id="cookieyes" type="text/javascript" src="https://scriptstaging.cookieyes.com/client_data/462525f2db575d54d0304931/script.js"></script>
+<!-- End cookieyes banner -->
+
 <script>
   export default {
     name: 'HelloWorld',
