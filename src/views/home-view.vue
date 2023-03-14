@@ -276,6 +276,18 @@
     }
   }
 </script>
+<script>
+import { useCookieYes } from 'path/to/cookieyes/script.js';
+
+export default {
+  setup() {
+    const { hasConsented } = useCookieYes();
+
+    return { hasConsented };
+  }
+}
+</script>
+
 <style scoped>
 .top{
   margin-top: 120px;
