@@ -277,7 +277,7 @@
   }
 </script>
 <script>
-import { useCookieYes } from '../public/index.html';
+import { useCookieYes } from './public/index.html';
 
 export default {
   setup() {
