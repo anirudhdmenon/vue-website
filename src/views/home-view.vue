@@ -276,17 +276,6 @@
     }
   }
 </script>
-<script>
-import { useCookieYes } from './public/index.html';
-
-export default {
-  setup() {
-    const { hasConsented } = useCookieYes();
-
-    return { hasConsented };
-  }
-}
-</script>
 
 <style scoped>
 .top{
