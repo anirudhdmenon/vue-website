@@ -2,10 +2,6 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/home-view.vue'
 
-<script id="cookieyes" type="text/javascript" 
-        src="https://scriptstaging.cookieyes.com/client_data/462525f2db575d54d0304931/script.js">
-</script>
-
 Vue.use(VueRouter)
 
 const routes = [
