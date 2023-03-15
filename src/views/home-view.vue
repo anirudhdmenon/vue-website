@@ -139,7 +139,7 @@
             height="250px"
             color="#1E1E1E"
           >
-            <v-img src="AngularWebsite2.png" contain max-height=""></v-img>
+            <v-img src="AngularWebsite.png" contain max-height=""></v-img>
           </v-card>
         </v-col>
         <v-col md="3" offset-md="3">
@@ -147,16 +147,21 @@
           ><br />
 
           <v-btn color="#A7121D" dark text class="ml-n4">
-            know more
-            <v-icon right>mdi-arrow-right</v-icon>
+            <a href="https://react-website-black.vercel.app/" target="_blank" class="knowmore">
+              know more
+              <v-icon right>mdi-arrow-right</v-icon>
+            </a>
+            
           </v-btn>
         </v-col>
         <v-col md="3">
           <v-btn color="white" dark text class="ml-n4"> Angular Website </v-btn><br />
 
           <v-btn color="#A7121D" dark text class="ml-n4">
-            know more
-            <v-icon right>mdi-arrow-right</v-icon>
+            <a href="https://angular-website-two.vercel.app/" target="_blank" class="knowmore">
+              know more
+              <v-icon right>mdi-arrow-right</v-icon>
+            </a>
           </v-btn>
         </v-col>
         <v-col md="3" offset-md="3">
@@ -186,15 +191,19 @@
           ><br />
 
           <v-btn color="#A7121D" dark text class="ml-n4">
-            know more
-            <v-icon right>mdi-arrow-right</v-icon>
+            <a href="https://dev-new-wordpress-anirudh.pantheonsite.io/" target="_blank" class="knowmore">
+              know more
+              <v-icon right>mdi-arrow-right</v-icon>
+            </a>
           </v-btn>
         </v-col>
         <v-col md="3">
           <v-btn color="white" dark text class="ml-n4"> Wix Website </v-btn><br />
           <v-btn color="#A7121D" dark text class="ml-n4">
-            know more
-            <v-icon right>mdi-arrow-right</v-icon>
+            <a href="https://anirudhdmenon6.wixsite.com/keralafishing" target="_blank" class="knowmore">
+              know more
+              <v-icon right>mdi-arrow-right</v-icon>
+            </a>
           </v-btn>
         </v-col>
 
@@ -319,6 +328,10 @@
   vertical-align: middle;
   text-align: left;
   margin-right: 8px;
+}
+.knowmore {
+  color:#A7121D; 
+  text-decoration: none;
 }
 .bgColor1{
   background-color: #1e1e1e;
