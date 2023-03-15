@@ -3,9 +3,9 @@
     id="home"
     :style="{background: $vuetify.theme.themes.dark.background }"
   >
-  <NavBar />
-  <v-container fluid>
-    <v-row>
+  <nav-bar />
+    <v-container fluid>
+      <v-row>
       <v-col cols="6">
         <v-img class="d-flex align-items-center" src="bg-image.jpg" contain max-height="500">
             <v-img class="rounded-circle mx-auto mt-15 mr-12"
@@ -248,37 +248,24 @@
           </v-toolbar>
         </v-col>
       </v-row>
-      </v-container>
-  <FooterElem />
+    </v-container>
+  <Footer />
   </v-app>
 </template>
 
-<script id="cookieyes" type="text/javascript" 
-        src="https://scriptstaging.cookieyes.com/client_data/462525f2db575d54d0304931/script.js">
-</script>
-
 <script>
-  import NavBar from '../components/nav-bar'
-  import FooterElem from "../components/footer-elem";
+  import NavBar from '../components/nav-bar.vue'
+  import Footer from "../components/footer-elem.vue";
   export default {
-    name: 'HomeView',
+    name: 'Home-view',
     data: () => ({
       icons: ["mdi-facebook", "mdi-twitter", "mdi-linkedin", "mdi-instagram"],
     }),
     components: {
       NavBar,
-      FooterElem,
+      Footer,
     },
   };
-</script>
-<script>
-  export default {
-    data() {
-      return {
-        videoUrl: 'https://www.youtube.com/embed/tgbNymZ7vqY'
-      }
-    }
-  }
 </script>
 
 <style scoped>
@@ -292,7 +279,6 @@
   margin-top: 100px;
   text-align: center;
 }
-
 .first {
   width: 100%;
   height: 610px;
@@ -364,19 +350,5 @@
 h1.number {
   font-size: 50px;
   font-weight: bold;
-}
-.video-container {
-  position: relative;
-  width: 100%;
-  height: 0;
-  padding-bottom: 56.25%;
-}
-
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 </style>
