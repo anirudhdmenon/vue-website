@@ -203,7 +203,7 @@
             <v-card-title>My Video</v-card-title>
             <v-card-text>
               <div class="video-container">
-                <iframe width="80%" height="600" :src="videoUrl" frameborder="0" allowfullscreen></iframe>
+                <iframe width="100%" height="600" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
               </div>
             </v-card-text>
           </v-card>
