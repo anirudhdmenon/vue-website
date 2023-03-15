@@ -17,14 +17,14 @@
       </v-col>
       <v-col cols="6">
         <h1 class="white--text top">Hello, I'm Anirudh</h1>
-        <h5 class="red--text font-weight-bold text-darken-4 ">Software Development Engineer</h5>
+        <h5 class="red--text font-weight-bold text-darken-4" style="font-size: 1.3rem;">Software Development Engineer</h5>
         <p class="grey--text">A 2022-Batch Computer Science Engineer, a meticulous and organized individual 
                               seeking an Entry-level position in the field of Software Development. Strong in 
                               design and integration with intuitive problem-solving skills. Effective 
                               collaborator promoting excellent programming knowledge. Proficient in C 
                               Programming, Python, Full stack web Development and SQL. Looking to start career 
                               as an entry-level software engineer with a reputed firm driven by technology.</p>
-        <v-btn title color="#A7121D" dark>About Me</v-btn>
+        <v-btn title color="#A7121D" dark @click="redirectToLink">About Me</v-btn>
       </v-col>
       <v-col cols="12" class="padd" id="skills">
           <div class="first">
@@ -267,7 +267,15 @@
     },
   };
 </script>
-
+<script>
+export default {
+  methods: {
+    redirectToLink() {
+      window.location.href = "https://drive.google.com/file/d/1Uzxdpb52DeJ0QmlRLOiXjEisVvipG7bw/view?usp=share_link";
+    },
+  },
+};
+</script>
 <style scoped>
 .top{
   margin-top: 120px;
