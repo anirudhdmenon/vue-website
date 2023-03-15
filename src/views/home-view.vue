@@ -167,7 +167,7 @@
             height="250px"
             color="#1E1E1E"
           >
-            <v-img src="WordpressWebsite2.png" contain max-height=""></v-img>
+            <v-img src="WordpressWebsite.png" contain max-height=""></v-img>
           </v-card>
         </v-col>
         <v-col md="3">
