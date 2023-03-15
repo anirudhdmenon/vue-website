@@ -4,7 +4,8 @@
     :style="{background: $vuetify.theme.themes.dark.background }"
   >
   <nav-bar />
-    <v-container fluid>
+    
+  <v-container fluid>
       <v-row>
       <v-col cols="6">
         <v-img class="d-flex align-items-center" src="bg-image.jpg" contain max-height="500">
@@ -265,17 +266,14 @@
       NavBar,
       Footer,
     },
+    methods: {
+      redirectToLink() {
+        window.location.href = "https://drive.google.com/file/d/1Uzxdpb52DeJ0QmlRLOiXjEisVvipG7bw/view?usp=share_link";
+      },
+    },
   };
 </script>
-<script>
-export default {
-  methods: {
-    redirectToLink() {
-      window.location.href = "https://drive.google.com/file/d/1Uzxdpb52DeJ0QmlRLOiXjEisVvipG7bw/view?usp=share_link";
-    },
-  },
-};
-</script>
+
 <style scoped>
 .top{
   margin-top: 120px;
