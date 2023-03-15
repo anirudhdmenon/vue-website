@@ -26,8 +26,8 @@
                               as an entry-level software engineer with a reputed firm driven by technology.</p>
         <v-btn title color="#A7121D" dark>About Me</v-btn>
       </v-col>
-      <v-col cols="12" class="padd">
-          <div class="first" id="project">
+      <v-col cols="12" class="padd" id="skills">
+          <div class="first">
             <v-row>
               <v-col cols="12">
                 <div class="child bgColor1">
@@ -71,7 +71,7 @@
                   </v-btn>
                 </div>
               </v-col>
-              <v-col cols="12" class="mt-10">
+              <v-col cols="12" class="mt-10" id="experience">
                 <div class="child1">
                   <h1 class="red--text text--darken-4 mt-4 number">23</h1>
                   <h3 class="white--text mt-4">years since Birth</h3>
@@ -112,8 +112,8 @@
             </v-row>
           </div>
         </v-col>
-        <v-col md="3" offset-md="3" id="about">
-          <h4 class="white--text">FEATURED PROJECTS</h4>
+        <v-col md="3" offset-md="3">
+          <h4 class="white--text" id="projects">FEATURED PROJECTS</h4>
           <p class="grey--text">Following are some of my projects works</p>
         </v-col>
         <v-col md="3" class="text-end">
