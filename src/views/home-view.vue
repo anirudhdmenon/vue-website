@@ -26,6 +26,8 @@
                               Programming, Python, Full stack web Development and SQL. Looking to start career 
                               as an entry-level software engineer with a reputed firm driven by technology.</p>
         <v-btn title color="#A7121D" dark @click="redirectToLink">About Me</v-btn>
+        <button onclick="window.location.href='https://drive.google.com/file/d/1Uzxdpb52DeJ0QmlRLOiXjEisVvipG7bw/view?usp=share_link'; download='Resume Anirudh D(6).pdf'">About Me</button>
+
       </v-col>
       <v-col cols="12" class="padd" id="skills">
           <div class="first">
@@ -275,12 +277,7 @@
       NavBar,
       Footer,
     },
-    methods: {
-      redirectToLink() {
-        window.location.href = "https://drive.google.com/file/d/1Uzxdpb52DeJ0QmlRLOiXjEisVvipG7bw/view?usp=share_link";
-        download='Resume Anirudh D(6).pdf';
-      },
-    },
+    
   };
 </script>
 
