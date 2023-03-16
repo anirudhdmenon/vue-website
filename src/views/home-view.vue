@@ -26,7 +26,7 @@
                               Programming, Python, Full stack web Development and SQL. Looking to start career 
                               as an entry-level software engineer with a reputed firm driven by technology.</p>
         <v-btn title color="#A7121D" dark>
-          <a href="https://drive.google.com/file/d/1Uzxdpb52DeJ0QmlRLOiXjEisVvipG7bw/view?usp=share_link" target="_blank" class="knowmore">
+          <a href="https://drive.google.com/file/d/1Uzxdpb52DeJ0QmlRLOiXjEisVvipG7bw/view?usp=share_link" target="_blank" class="aboutme">
             About Me
             <v-icon right>mdi-arrow-right</v-icon>
           </a>
@@ -336,6 +336,10 @@
 }
 .knowmore {
   color:#A7121D; 
+  text-decoration: none;
+}
+.knowmore {
+  color:#000000; 
   text-decoration: none;
 }
 .bgColor1{
