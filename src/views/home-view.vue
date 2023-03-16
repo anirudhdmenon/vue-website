@@ -278,8 +278,7 @@
     },
     methods: {
       redirectToLink() {
-        window.location.href = "https://drive.google.com/file/d/1Uzxdpb52DeJ0QmlRLOiXjEisVvipG7bw/view?usp=share_link";
-        download='Resume Anirudh D(6).pdf';
+        window.location.href = "https://drive.google.com/file/d/1Uzxdpb52DeJ0QmlRLOiXjEisVvipG7bw/view?usp=share_link"; _target='none';
       },
     },
   };
