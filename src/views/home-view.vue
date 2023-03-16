@@ -25,8 +25,12 @@
                               collaborator promoting excellent programming knowledge. Proficient in C 
                               Programming, Python, Full stack web Development and SQL. Looking to start career 
                               as an entry-level software engineer with a reputed firm driven by technology.</p>
-        <v-btn title color="#A7121D" dark @click="redirectToLink">About Me</v-btn>
-
+        <v-btn title color="#A7121D" dark>
+          <a href="https://drive.google.com/file/d/1Uzxdpb52DeJ0QmlRLOiXjEisVvipG7bw/view?usp=share_link" target="_blank" class="knowmore">
+            About Me
+            <v-icon right>mdi-arrow-right</v-icon>
+          </a>
+        </v-btn>
       </v-col>
       <v-col cols="12" class="padd" id="skills">
           <div class="first">
