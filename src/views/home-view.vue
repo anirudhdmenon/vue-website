@@ -278,7 +278,7 @@
     },
     methods: {
       redirectToLink() {
-        window.location.href = "https://drive.google.com/file/d/1Uzxdpb52DeJ0QmlRLOiXjEisVvipG7bw/view?usp=share_link"; target="_blank";
+        window.location.href = "https://drive.google.com/file/d/1Uzxdpb52DeJ0QmlRLOiXjEisVvipG7bw/view?usp=share_link";
       },
     },
   };
