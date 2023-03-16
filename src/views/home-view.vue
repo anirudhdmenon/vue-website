@@ -339,7 +339,7 @@
   text-decoration: none;
 }
 .aboutme {
-  color:#000000; 
+  color:#ffffff; 
   text-decoration: none;
 }
 .bgColor1{
