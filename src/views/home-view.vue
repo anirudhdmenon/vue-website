@@ -338,7 +338,7 @@
   color:#A7121D; 
   text-decoration: none;
 }
-.knowmore {
+.aboutme {
   color:#000000; 
   text-decoration: none;
 }
